@@ -50,7 +50,12 @@ To run this project locally, follow these steps:
     ```bash
     php artisan migrate
 
-7. **Start the Development Server**
+7. **Run the Database Seeder**
+
+    ```bash
+    php artisan db:seed
+
+8. **Start the Development Server**
 
     ```bash
     php artisan serve
