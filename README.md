@@ -7,15 +7,13 @@ This is a RESTful API built with Laravel for managing user wallets and transacti
 - [Project Overview](#project-overview)
 - [Setup Instructions](#setup-instructions)
 - [API Documentation](#api-documentation)
-- [Endpoints](#endpoints)
-- [Environment Configuration](#environment-configuration)
 
 ## Project Overview
 
 The Laravel Wallet API provides endpoints to perform the following tasks:
 
 - User registration and authentication using JWT
-- CRUD operations for currencies
+- Assign currencies to wallets
 - Wallet management (create, view, fund, and debit)
 - Paystack integration for funding wallets
 - Transaction history for wallets
@@ -56,7 +54,6 @@ To run this project locally, follow these steps:
 
     ```bash
     php artisan serve
-
 
 
 ## API Documentation
